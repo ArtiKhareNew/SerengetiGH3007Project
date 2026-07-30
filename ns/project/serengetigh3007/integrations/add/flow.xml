@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FLOW VERSION="3.2" CLEANUP="false">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<INVOKE NAME="Math" SERVICE="pub.math:addInts">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAP MODE="INPUT">
+  <COMMENT></COMMENT>
+</MAP>
+
+<MAP MODE="OUTPUT">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAPCOPY FROM="/value;1;0" TO="/sum;1;0">
+</MAPCOPY>
+
+<MAPDELETE FIELD="/value;1;0">
+</MAPDELETE>
+</MAP>
+</INVOKE>
+</FLOW>
