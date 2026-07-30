@@ -17,3 +17,8 @@ packages:
   gitUrl: https://dev.azure.com/ArtiKhare/SubstractPublicSvcPackage/_git
   gitUsername: ArtiKhare
   gitBranch: main
+- name: DivisionPackage
+  gitServerName: srcGithubCtrl_Arti
+  gitUrl: https://github.com/ArtiKhareNew
+  gitUsername: ArtiKhareNew
+  gitBranch: main
