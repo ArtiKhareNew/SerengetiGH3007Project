@@ -97,7 +97,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Arti.Khare@ibm.com</value>
-    <value name="lastModifiedDate">2026-07-30T08:33:38.601694610Z</value>
+    <value name="lastModifiedDate">2026-07-30T08:49:22.422735878Z</value>
     <value name="displayName">add</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -132,6 +132,20 @@
         <record name="serviceName" javaclass="com.wm.util.Values">
           <value name="displayName">tracePipeline</value>
           <value name="serviceName">pub.flow:tracePipeline</value>
+          <value name="transformerSupport">true</value>
+        </record>
+      </record>
+      <record name="/2" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Flow</value>
+          <value name="groupName">flow</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">clearPipeline</value>
+          <value name="serviceName">pub.flow:clearPipeline</value>
           <value name="transformerSupport">true</value>
         </record>
       </record>

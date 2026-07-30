@@ -134,4 +134,8 @@
 <INVOKE NAME="Flow" SERVICE="pub.flow:tracePipeline">
   <COMMENT></COMMENT>
 </INVOKE>
+
+<INVOKE NAME="Flow" SERVICE="pub.flow:clearPipeline">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>
